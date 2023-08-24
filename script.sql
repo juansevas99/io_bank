@@ -131,6 +131,7 @@ CREATE TABLE IF NOT EXISTS `io_bank`.`movimiento` (
   `cuenta_id_cuenta` INT NOT NULL,
   `tipo_movimiento_id_tipo_movimiento` INT NOT NULL,
   `asesor_id_asesor` INT NOT NULL,
+  `origen_movimiento` VARCHAR(45) NULL,
   PRIMARY KEY (`id_movimiento`),
   INDEX `fk_movimiento_cuenta1_idx` (`cuenta_id_cuenta` ASC) VISIBLE,
   INDEX `fk_movimiento_tipo_movimiento1_idx` (`tipo_movimiento_id_tipo_movimiento` ASC) VISIBLE,
