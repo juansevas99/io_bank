@@ -5,8 +5,45 @@ link de overleaf _ https://www.overleaf.com/1494332595sjwxvkzztbyn
 link de presentacion _ 
 
 
-Lenguages_
+Notas:
 
-Springboot (API)
-Vue js: Front end
-Postgres: Base de datos
+- Creacion de consultas basicas para la base de datos
+
+ - Formulacion de consultas
+ 	- Creacion de tablas fuertes
+		- Creacion de producto (insert)
+		- Creacion de cliente  (insert)
+		- creacion de tipo de movimiento
+		- creacion de tipo usuario
+		- creacion de asesor
+	- login en la sucursal (select)
+		- consulta de clienete por 
+
+	- actualizacion de datos personales de cliente (updates)
+	- 
+1. Desasroolo de aplicacion Web por parte del cliente
+
+issues: 
+
+ - Creacion de formularios basicos para las tablas fuertes
+
+	- producto	
+		- Creacion de producto
+		- Actualizacion de producto
+ - Creacion de logica para cada uno de los formularios
+
+
+
+2. Desarrollo de intranet 
+
+
+
+
+3. Escoger los lenguages 
+Spring boot (API)
+Vue js (Front end) - 
+POSRgres( base de datos)
+
+Base de datos: 
+
+
